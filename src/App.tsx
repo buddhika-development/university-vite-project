@@ -38,11 +38,11 @@ function App() {
           />
         </div>
 
-        <div style={{ display: 'flex', justifyContent: 'center', marginTop: '40px' }}>
+        <div style={{ display: 'flex', width: '100%', marginTop: '40px' }}>
           <Testimonial 
             quote="This service completely transformed the way I manage my projects. Highly recommended!"
-            authorName="Jane Doe"
-            authorPhotoUrl="https://placehold.co/100x100?text=JD"
+            authorName="Buddhika Madusanka"
+            authorPhotoUrl="https://placehold.co/100x100?text=BM"
           />
         </div>
 
