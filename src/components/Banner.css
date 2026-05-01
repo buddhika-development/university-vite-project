@@ -1,0 +1,18 @@
+.banner {
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin: 2rem 0;
+  color: #333;
+}
+
+.banner-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.banner-message {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
