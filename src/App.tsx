@@ -6,6 +6,8 @@ import Card from './components/Card'
 import Testimonial from './components/Testimonial'
 import Footer from './components/Footer'
 import heroImg from './assets/hero.png'
+import viteV8Img from './assets/vite_v8.webp'
+import communityImg from './assets/community.jpg'
 
 function App() {
   return (
@@ -21,16 +23,18 @@ function App() {
           backgroundImage={heroImg}
         />
 
-        <div style={{ display: 'flex', gap: '20px', justifyContent: 'center', flexWrap: 'wrap', marginTop: '40px' }}>
+        <div style={{ display: 'flex', gap: '20px', width: '100%', marginTop: '40px' }}>
           <Card 
-            title="Premium Plan" 
-            description="Access all our premium features and get priority support."
-            imageUrl="https://placehold.co/400x200?text=Premium+Plan"
+            title="Vite Version 8 is Here!" 
+            description="Discover the new features and performance improvements in the latest major release of Vite."
+            imageUrl={viteV8Img}
+            linkUrl="https://vite.dev/"
           />
           <Card 
-            title="Basic Plan" 
-            description="Perfect for individuals just getting started with our platform."
-            imageUrl="https://placehold.co/400x200?text=Basic+Plan"
+            title="Join the Community" 
+            description="Engage with other developers, ask questions, and share your projects in our GitHub discussions."
+            imageUrl={communityImg}
+            linkUrl="https://github.com/vitejs/vite/discussions"
           />
         </div>
 
